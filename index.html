@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANGAKU</title>
+    
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #f50baf;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0e0d0d;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: rgb(248, 243, 243);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .komik-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .komik-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(241, 241, 241, 0.1);
+            overflow: hidden;
+        }
+
+        .komik-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .komik-card h3 {
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+</style>
+</head>
+
+<body>
+
+    <header>
+        <h1>MANGAKU</h1>
+    </header>
+
+    <nav>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Tulisan Bergerak</title>
+            <style>
+                .marquee {
+                    overflow: hidden;
+                    white-space: nowrap;
+                    box-sizing: border-box;
+                    animation: marquee 10s linear infinite;
+                    color: #ddd;
+                }
+        
+                @keyframes marquee {
+                    0% {
+                        transform: translateX(100%);
+                    }
+                    100% {
+                        transform: translateX(-100%);
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <div class="marquee">
+                <h1>SELAMAT MEMBACA & TERIMA KASIH</h1>
+            </div>
+        </body>
+        
+    </nav>
+
+    <div class="container">
+        <h2>Manga Pilihan</h2>
+        <div class="komik-grid">
+            <!-- Contoh Card Komik -->
+
+            <div class="komik-card">
+                <img src="gambar/Gambar Unik.jpg" alt="Battle Through The Heaven">
+                <h3>Battle Through The Heaven</h3>
+                <p>chapter 457</p>
+            </div>
+            <div class="komik-card">
+                <img src="gambar/The Great Ruler coming soon.jpg" alt="The Great Ruler">
+                <h3>The Great Ruler</h3>
+                <p>chapter 293</p>
+            </div>
+            <div class="komik-card">
+                <img src="gambar/download.jpg" alt="Matarial Univers">
+                <h3>Matrial Univers</h3>
+                <p>chapter 238</p>
+            </div>
+            <div class="komik-card">
+                <img src="gambar/石昊 _ Shi Hao _ สือฮ่าว.jpg" alt="Perfet world">
+                <h3>Perfect world</h3>
+                <p>chapter 773</p>
+            </div>
+            <div class="komik-card">
+                <img src="c:\Users\Userz\Documents\tugas ppl\gambar\WhatsApp Image 2024-10-26 at 07.50.43_27e6aea2.jpg" alt="Jade Dynasty"> 
+                 <h3>Jade Dynasty</h3>
+                 <p>chapter 429</p>
+            </div>
+            <div class="komik-card">
+                <img src="c:\Users\Userz\Documents\tugas ppl\gambar\WhatsApp Image 2024-10-26 at 07.50.42_c73cc15a.jpg" alt="Throne of Seal">
+                <h3>Throne Of Seal</h3>
+                <p>chapter 143</p>
+            </div>
+            <div class="komik-card">
+                <img src="c:\Users\Userz\Documents\tugas ppl\gambar\Huo Yuhao 霍雨浩 ฮั่วอวี่เฮ่า.jpg" alt="Soul Land 2">
+                <h3>Soul land 2</h3>
+                <P>chapter 425</P>
+            </div>
+            <div class="komik-card">
+                <img src="c:\Users\Userz\Documents\tugas ppl\gambar\Wang lin.jpg" alt="Renegade Immortal">
+                <h3>Renegade Immortal</h3>
+                <p>chapter 525</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MANGAKU. Semua hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+
+</html>
